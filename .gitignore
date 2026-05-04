@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Não comitar o dataset bruto (pode conter dados sensíveis ou exceder limite)
+email_lab_dataset/
+*.eml
