@@ -28,7 +28,7 @@ python analyze_emails.py    # gera o CSV
 python generate_report.py   # gera o PDF
 ```
 
-> O script aponta por padrao para `c:/Users/erick/Downloads/Download 2026-04-23T14-31-13-335Z/`.
+
 > Ajuste `DATASET_DIRS` em `analyze_emails.py` se mover o dataset.
 
 ## Passo a passo da investigacao (resumo)
