@@ -33,7 +33,7 @@ python generate_report.py   # gera o PDF
 
 ## Passo a passo da investigacao (resumo)
 
-1. **Coleta** — extrair `email_lab_dataset.zip` (senha `blueTeam`) em pasta isolada read-only.
+1. **Coleta** — extrair `email_lab_dataset.zip` em pasta isolada read-only.
 2. **Triagem N1** — comparar `From` x `Return-Path`, checar urgencia no `Subject`, identificar typosquatting.
 3. **Analise N2 (header)** — ler cadeia `Received` (de baixo pra cima = origem real); validar `SPF` / `DKIM` / `DMARC` em `Authentication-Results`.
 4. **Analise de URL** — extrair links do corpo HTML; identificar dominio efetivo (eTLD+1) lendo da direita pra esquerda.
